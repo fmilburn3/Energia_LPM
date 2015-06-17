@@ -5,6 +5,10 @@
   demonstrate sleep() and sleepSeconds().  It then goes into suspend()
   but will wake up and start over again if the button is pushed.
   sleep() and sleepSeconds() use LPM3. suspend() uses LPM4.
+  
+  This example was derived from a posting by @spirilis at 43oh.com
+  Created by Frank Milburn June 2015
+  Released into the public domain
 */
 void setup()
 { 
